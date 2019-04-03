@@ -1,40 +1,40 @@
 {
-    "name": "skarges3/faadapter",
-    "description": "A plugin to get form assembly forms into templates.",
-    "type": "craft-plugin",
-    "version": "1.0.0",
-    "keywords": [
-        "craft",
-        "cms",
-        "craftcms",
-        "craft-plugin",
-        "faadapter"
-    ],
-    "support": {
-        "docs": "https://github.com/skarges3/faadapter/blob/master/README.md",
-        "issues": "https://github.com/skarges3/faadapter/issues"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Spencer Karges",
-            "homepage": "eskargeaux.co"
-        }
-    ],
-    "require": {
-        "craftcms/cms": "^3.0.0-RC1"
-    },
-    "autoload": {
-        "psr-4": {
-          "skarges3\\faadapter\\": "src/"
-        }
-    },
-    "extra": {
-        "name": "faadapter",
-        "handle": "faadapter",
-        "hasCpSettings": false,
-        "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/skarges3/faadapter/master/CHANGELOG.md",
-        "class": "skarges3\\faadapter\\Faadapter"
+  "name": "skarges3/faadapter",
+  "description": "A plugin to get form assembly forms into templates.",
+  "type": "craft-plugin",
+  "version": "1.0.0",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "faadapter"
+  ],
+  "support": {
+    "docs": "https://github.com/skarges3/faadapter/blob/master/README.md",
+    "issues": "https://github.com/skarges3/faadapter/issues"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Spencer Karges",
+      "homepage": "https://eskargeaux.co"
     }
+  ],
+  "require": {
+    "craftcms/cms": "^3.0.0-RC1"
+  },
+  "autoload": {
+    "psr-4": {
+      "skarges3\\faadapter\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "faadapter",
+    "handle": "faadapter",
+    "hasCpSettings": false,
+    "hasCpSection": false,
+    "changelogUrl": "https://raw.githubusercontent.com/skarges3/faadapter/master/CHANGELOG.md",
+    "class": "skarges3\\faadapter\\Faadapter"
+  }
 }
